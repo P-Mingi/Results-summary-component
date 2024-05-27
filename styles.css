@@ -33,7 +33,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 50%;
     font-family: HankenGrotesk;
 }
 
@@ -72,7 +72,7 @@ h2 {
 }
 
 .left {
-    background-color: var(--Light-royal-blue-background);
+    background-image: linear-gradient(var(--Light-slate-blue-background), var(--Light-royal-blue-background) 60%);
     border-radius: 2rem;
     padding: 3rem 6rem;
     width: 50%;
@@ -87,11 +87,11 @@ h2 {
 .round {
     height: 23rem;
     width: 23rem;
-    border: 1px solid;
     text-align: center;
     border-radius: 20rem;
     padding: 3.5rem 0;
     margin: 3rem 0 2rem 0;
+    background-image: linear-gradient(var( --Violet-blue-circle), var(--Persian-blue-circle));
 }
 
 .big-number {
@@ -131,6 +131,10 @@ h2 {
     border-radius: 5rem;
 }
 
+.btn:hover {
+    background-image: linear-gradient(var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+}
+
 .one {
     margin-top: 3rem;
     background-color: var(--Light-red-op);
@@ -167,4 +171,23 @@ h2 {
 
 .hundred {
     opacity: .4;
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+        width: 80%;
+        min-width: 50rem;
+        height: 100rem;
+        margin: 10rem auto;
+    }
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        border-radius: 0 0 2rem 2rem;
+        height: 55rem;
+    }
 }
