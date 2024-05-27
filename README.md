@@ -19,8 +19,13 @@ If I had to do it again I would try to get an exact result without having to res
 
 ### Screenshot
 
-![](https://github.com/P-Mingi/Four-card-feature-section/blob/main/images/screenshot.png?raw=true)
+- Desktop:
 
+![](https://github.com/P-Mingi/Results-summary-component/blob/main/design/screenshot-desktop.png?raw=true)
+
+- Phone:
+
+![](https://github.com/P-Mingi/Results-summary-component/blob/main/design/screenshot-phone.png?raw=true)
 
 ### Links
 
